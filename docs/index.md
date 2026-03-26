@@ -7,6 +7,8 @@ nav_order: 1
 
 This workflow packages the fly gene-copy pipeline as a Dockerized Snakemake project. The aim is to make the original process reproducible, configurable, and easier to rerun without editing shell scripts by hand for each gene or dataset.
 
+Original pipeline and analysis framework by Kimberly Elicker.
+
 ## What the pipeline does
 
 The workflow starts from a protein query FASTA and searches a set of genomes for homologous regions. It then filters candidate hits, extracts overlapping annotated protein-coding sequences where possible, validates candidates by reciprocal search against a reference genome, classifies them by expected protein domain architecture, checks whether partial copies sit near contig ends, and optionally predicts unannotated proteins in no-CDS regions with AUGUSTUS.

@@ -2,6 +2,8 @@
 
 This repository contains a Dockerized Snakemake workflow for running the fly gene-copy pipeline from a single configuration file instead of editing the original shell scripts by hand for each run.
 
+Original pipeline and analysis framework by Kimberly Elicker.
+
 ## Repository layout
 
 - `Snakefile`: workflow entry point
