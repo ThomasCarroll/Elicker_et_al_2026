@@ -1,0 +1,31 @@
+gene: AGO2
+query_fasta: Scripts_And_Guide/AGO2.fasta
+species_list: config/species_list.txt
+output_dir: results
+classifier_script: Scripts_And_Guide/classify_hits_v2.py
+
+references:
+  genome_dir: .
+  genome_glob: "*_genome.fasta"
+  genome_suffix: _genome.fasta
+  annotation_suffix: _annotation.gff
+  pfam_db: Pfam-A.hmm
+
+thresholds:
+  identity: 55
+  coverage: 20
+
+reciprocal:
+  fasta: Drosophila_affinis_genome.fasta
+  db: Drosophila_affinis_genome
+  gff: Drosophila_affinis_annotation.gff
+  gene_match: AGO2
+
+augustus:
+  species: fly
+  extend_bp: 500
+
+run_missing_domains: false
+missing_domains:
+  input_table: results/AGO2/record_keeping_with_domains_with_contig_end.txt
+  strand_column: STRAND

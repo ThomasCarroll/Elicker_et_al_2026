@@ -1,0 +1,32 @@
+.git
+.snakemake
+results
+__pycache__
+*.pyc
+*.pyo
+*.swp
+.DS_Store
+
+# Large local reference data should be bind-mounted at runtime, not copied
+*.fasta
+*.fasta.fai
+*.fa
+*.fa.fai
+*.gff
+*.gff3
+*.hmm
+*.h3f
+*.h3i
+*.h3m
+*.h3p
+*.nhr
+*.nin
+*.njs
+*.not
+*.nsq
+*.ndb
+*.ntf
+*.nto
+
+# Keep the example query FASTA in the build context
+!Scripts_And_Guide/AGO2.fasta

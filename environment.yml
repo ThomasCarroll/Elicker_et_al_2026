@@ -1,0 +1,15 @@
+name: fly-pipeline
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - snakemake-minimal=8.24
+  - blast
+  - hmmer
+  - bedtools
+  - samtools
+  - emboss
+  - gffread
+  - augustus
+  - pyyaml

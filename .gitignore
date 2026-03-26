@@ -1,0 +1,33 @@
+.DS_Store
+.snakemake/
+results/
+
+# Local Python / shell noise
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+
+# Large reference and index files
+*.fasta
+*.fasta.fai
+*.fa
+*.fa.fai
+*.gff
+*.gff3
+*.hmm
+*.h3f
+*.h3i
+*.h3m
+*.h3p
+*.nhr
+*.nin
+*.njs
+*.not
+*.nsq
+*.ndb
+*.ntf
+*.nto
+
+# Keep the example query FASTA in version control
+!Scripts_And_Guide/AGO2.fasta
