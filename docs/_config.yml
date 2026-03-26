@@ -1,0 +1,9 @@
+title: Fly Pipeline
+description: Dockerized Snakemake workflow for the fly gene-copy pipeline
+theme: minima
+markdown: kramdown
+
+header_pages:
+  - index.md
+  - tutorial.md
+  - install-and-tests.md

@@ -6,6 +6,7 @@ This repository contains a Dockerized Snakemake workflow for running the fly gen
 
 - `Snakefile`: workflow entry point
 - `config/`: run configuration and species list
+- `docs/`: GitHub Pages content for overview, tutorial, and install/test docs
 - `workflow/scripts/`: parameterized helper scripts used by Snakemake
 - `tests/`: smoke and full workflow test scripts
 - `Dockerfile` and `environment.yml`: container build and software environment
