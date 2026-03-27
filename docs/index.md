@@ -5,6 +5,22 @@ nav_order: 1
 
 # Fly Pipeline
 
+<div class="hero">
+  <p class="hero-kicker">Genome search, reciprocal validation, domain classification, and prediction workflow</p>
+  <p class="hero-lead">A Dockerized Snakemake implementation of the fly gene-copy pipeline for reproducible homology search, annotation-aware filtering, domain analysis, and contig-end assessment.</p>
+</div>
+
+<div class="card-grid">
+  <a class="card-link" href="{{ '/tutorial.html' | relative_url }}">
+    <strong>Tutorial</strong>
+    <span>Walk through configuration, dry-run checks, and a full workflow run.</span>
+  </a>
+  <a class="card-link" href="{{ '/install-and-tests.html' | relative_url }}">
+    <strong>Install and Tests</strong>
+    <span>Build the container, run smoke tests, and verify a clean end-to-end execution.</span>
+  </a>
+</div>
+
 This workflow packages the fly gene-copy pipeline as a Dockerized Snakemake project. The aim is to make the original process reproducible, configurable, and easier to rerun without editing shell scripts by hand for each gene or dataset.
 
 Original pipeline and analysis framework by Kimberly Elicker.
